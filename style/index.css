@@ -51,10 +51,14 @@ header{
     padding-bottom: 37px;
 }
 /* action section  */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 .action-section{
     display: flex;
     justify-content: space-between;
-    padding: 116px 145px;
+    padding: 116px 0;
     align-items: center;
     gap: 150px;
 }
@@ -97,4 +101,38 @@ header{
 .sub-name{
     font-size: 20px;
     color: #000000;
+}
+/* feedback section  */
+.feed-title{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* card */
+.card-container{
+    padding: 24px 24px;  
+    width: 100%;
+    background-color: rgba(242, 237, 237, .6); 
+    border-radius: 15px;
+
+    /* box-shadow: 5px 5px 5px; */
+    /* margin: 100px; */
+}
+.card-title{
+    margin: 24px 0;
+}
+.feedback-person{
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+}
+.feedback{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    /* justify-content: space-around; */
+    margin-bottom: 130px;
+    padding: 116px 0;
 }
